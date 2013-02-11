@@ -1,0 +1,40 @@
+//-----------------------------------------
+// Typography Basics
+//-----------------------------------------
+
+html, body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+}
+
+// From @andyhume: https://speakerdeck.com/andyhume/css-for-grown-ups-maturing-best-practises
+h1, h2, h3, h4, h5, h6,
+.h-headline, .h-subheadline, .h-byline, 
+.h-standfirst, .h-related, .h-promo {
+  line-height: 1.25;
+  margin-bottom: 0.25em;
+}
+
+h1, .h-headline { font-size: 3em }
+h2, .h-subheadline { font-size: 2.3em; }
+h3, .h-byline { font-size: 2.1em; }
+h4, .h-standfirst { font-size: 1.8em; }
+h5, .h-related { font-size: 1.3em; }
+h6, .h-promo { font-size: 1.1em; }
+
+p {
+  font-size: 1em; 
+  line-height: 1.4;
+  margin-bottom: 0.25em; 
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 30em) {
+  body {
+    font-size: 0.9em;
+  }
+}

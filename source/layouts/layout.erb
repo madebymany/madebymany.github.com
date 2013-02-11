@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title><%= data.page.title || "Open Source @ Made by Many" %></title>
+    <%= stylesheet_link_tag "normalize", "all" %>
+  </head>
+  
+  <body class="<%= page_classes %>">
+    <div class="l-site-container">
+      <header class="l-site-header">
+        <a href="/" class="made-by-many-logo">
+          <span class="visuallyhidden">Made by Many</a>
+        </a>
+      </header>
+
+      <div class="l-site-body">
+        <%= yield %>
+      </div>
+
+      <footer class="l-site-footer">
+
+        <ul class="inline-list">
+          <li><a href="http://github.com/madebymany">Github</a></li>
+           <li><a href="http://twitter.com/madebymany">Twitter</a></li>
+        </ul>
+
+      </footer>
+    </div>
+  </body>
+
+  <%= javascript_include_tag  "all" %>
+</html>

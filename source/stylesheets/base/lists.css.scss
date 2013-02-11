@@ -1,0 +1,25 @@
+//-----------------------------------------
+// Simple list helper classes
+//-----------------------------------------
+
+.unstyled-list,
+.inline-list,
+.float-list,
+.unstyled-list li,
+.inline-list li,
+.float-list li {
+  margin: 0; padding: 0;
+}
+
+.unstyled-list li {
+  list-style: none;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+.float-list li {
+  display: block;
+  float: left;
+}
