@@ -1,0 +1,104 @@
+/* line 6, base/helpers.css.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* line 13, base/helpers.css.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px; }
+
+/* line 21, base/helpers.css.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%; }
+
+/* line 28, base/helpers.css.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* line 40, base/helpers.css.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/* line 50, base/helpers.css.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 55, base/helpers.css.scss */
+.clearfix:after {
+  clear: both; }
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 64, base/helpers.css.scss */
+.clearfix {
+  *zoom: 1; }
+
+/* line 69, base/helpers.css.scss */
+.l-media {
+  margin: 1.6em; }
+
+/* line 72, base/helpers.css.scss */
+.l-media,
+.l-media-body {
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1; }
+
+/* line 74, base/helpers.css.scss */
+.l-media-img {
+  float: left;
+  margin-right: 1.6em; }
+
+/* line 75, base/helpers.css.scss */
+.l-media-img-right {
+  float: right;
+  margin-left: 1.6em; }
+
+/* line 77, base/helpers.css.scss */
+.l-media-img img {
+  display: block; }
+
+/* line 80, base/helpers.css.scss */
+.l-sixteen-by-nine {
+  padding-top: 56.25%;
+  /* 16:9 */
+  height: 0;
+  position: relative;
+  width: 100%; }
+
+/* line 88, base/helpers.css.scss */
+.l-sixteen-by-nine iframe,
+.l-sixteen-by-nine video {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute; }

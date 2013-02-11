@@ -1,0 +1,51 @@
+/* line 5, base/typography.css.scss */
+html, body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 14, base/typography.css.scss */
+h1, h2, h3, h4, h5, h6,
+.h-headline, .h-subheadline, .h-byline,
+.h-standfirst, .h-related, .h-promo {
+  line-height: 1.25;
+  margin-bottom: 0.25em; }
+
+/* line 19, base/typography.css.scss */
+h1, .h-headline {
+  font-size: 3em; }
+
+/* line 20, base/typography.css.scss */
+h2, .h-subheadline {
+  font-size: 2.3em; }
+
+/* line 21, base/typography.css.scss */
+h3, .h-byline {
+  font-size: 2.1em; }
+
+/* line 22, base/typography.css.scss */
+h4, .h-standfirst {
+  font-size: 1.8em; }
+
+/* line 23, base/typography.css.scss */
+h5, .h-related {
+  font-size: 1.3em; }
+
+/* line 24, base/typography.css.scss */
+h6, .h-promo {
+  font-size: 1.1em; }
+
+/* line 26, base/typography.css.scss */
+p {
+  font-size: 1em;
+  line-height: 1.4;
+  margin-bottom: 0.25em; }
+
+/* line 32, base/typography.css.scss */
+p:last-child {
+  margin-bottom: 0; }
+
+@media (max-width: 30em) {
+  /* line 37, base/typography.css.scss */
+  body {
+    font-size: 0.9em; } }

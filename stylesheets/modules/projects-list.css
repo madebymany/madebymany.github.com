@@ -1,0 +1,33 @@
+/* line 1, modules/projects-list.css.scss */
+.projects-list {
+  margin: 100px 0 0 0; }
+
+/* line 5, modules/projects-list.css.scss */
+.projects-list .project {
+  font-size: 1.3em;
+  margin: 0 0 15px 0;
+  overflow: hidden; }
+
+/* line 11, modules/projects-list.css.scss */
+.project-link {
+  display: block;
+  float: left;
+  width: 85%;
+  text-decoration: none; }
+
+/* line 18, modules/projects-list.css.scss */
+.project-icon {
+  display: block;
+  float: left;
+  width: 38px;
+  height: 38px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 10px 0 0;
+  font-style: normal;
+  background: #70C5EE;
+  color: #fff; }
+
+/* line 30, modules/projects-list.css.scss */
+.project-icon--ruby {
+  background-color: #cf3b43; }

@@ -1,0 +1,47 @@
+/* line 10, base/default.css.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222; }
+
+/* line 14, base/default.css.scss */
+body {
+  background: whiteSmoke;
+  font-size: 1em;
+  line-height: 1.4; }
+
+/* line 20, base/default.css.scss */
+::-moz-selection {
+  background: #FFF0A0;
+  text-shadow: none; }
+
+/* line 25, base/default.css.scss */
+::selection {
+  background: #FFF0A0;
+  text-shadow: none; }
+
+/* line 30, base/default.css.scss */
+img {
+  vertical-align: middle; }
+
+/* line 34, base/default.css.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* line 40, base/default.css.scss */
+textarea {
+  resize: vertical; }
+
+/* line 46, base/default.css.scss */
+a,
+a:hover,
+a:focus {
+  color: #222; }
+
+/* line 50, base/default.css.scss */
+a:hover {
+  text-decoration: underline; }
