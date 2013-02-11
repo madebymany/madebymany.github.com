@@ -55,6 +55,7 @@ set :images_dir, 'images'
 
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.branch = "master"
 end
 
 
